@@ -1,80 +1,74 @@
 # Online-Quiz-Application
 A full-stack Online Quiz Application built primarily using C++ featuring OOP concepts, file handling, quiz timer, scoring system, leaderboard, user authentication, and web integration support.
 <br>
-# 🎯 QuizMaster - Online Quiz Application (C++ Full Stack Project)
+# 🎯 QuizMaster — Online Quiz Application
 
-## 📌 Project Overview
+A modern **Online Quiz Application** developed using **C++**, **Object-Oriented Programming (OOP)**, **File Handling**, **HTML**, **CSS**, and **JavaScript**.
 
-QuizMaster is a full-featured Online Quiz Application developed primarily using **C++** with Object-Oriented Programming concepts, file handling, authentication system, scoring logic, timer functionality, and leaderboard management.
-
-The project is designed as an internship-level real-world application that demonstrates strong C++ fundamentals along with full-stack development concepts.
+This project combines a beautiful frontend website with a powerful C++ backend system for quiz management, authentication, and score storage.
 
 ---
 
 # 🚀 Features
 
-✅ User Registration & Login  
-✅ Multiple Choice Questions (MCQs)  
-✅ Quiz Timer System  
-✅ Real-time Score Calculation  
-✅ Leaderboard System  
-✅ File Handling for Data Storage  
-✅ Admin Panel for Managing Questions  
-✅ Question Categories & Difficulty Levels  
-✅ Full Stack Website Support  
-✅ Responsive Frontend UI  
-✅ OOP-Based Architecture  
+## 🌐 Frontend Features
+- Beautiful responsive UI
+- Interactive quiz interface
+- Countdown timer
+- Result page
+- Leaderboard page
+- Smooth navigation
+- Modern gradient design
+
+## ⚙️ Backend Features
+- User Registration
+- User Login System
+- Quiz Engine in C++
+- Score Management
+- File Handling
+- OOP Concepts
+- Data Storage using TXT files
 
 ---
 
-# 🛠️ Tech Stack
-
-## Core Technologies
-
-- **C++**
-- Object-Oriented Programming (OOP)
-- STL (Vectors, File Streams, Algorithms)
-- File Handling
+# 🛠️ Technologies Used
 
 ## Frontend
-
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap
 
 ## Backend
-
-- C++ Backend (Crow Framework)
-- REST APIs
-
-## Database
-
-- MySQL / File System
+- C++
+- Object-Oriented Programming
+- File Handling
 
 ---
 
 # 📂 Project Structure
 
-```bash
+```plaintext
 OnlineQuizApp/
 │
-├── main.cpp
-├── quiz.cpp
-├── quiz.h
-├── question.cpp
-├── question.h
-├── user.cpp
-├── user.h
-├── users.txt
-├── questions.txt
-├── score.txt
+├── backend/
+│   ├── main.cpp
+│   ├── quiz.cpp
+│   ├── quiz.h
+│   ├── question.cpp
+│   ├── question.h
+│   ├── user.cpp
+│   ├── user.h
+│   ├── users.txt
+│   ├── scores.txt
 │
 ├── frontend/
 │   ├── index.html
+│   ├── quiz.html
+│   ├── result.html
+│   ├── leaderboard.html
 │   ├── style.css
 │   ├── script.js
+│   ├── quiz.js
 │
-├── screenshots/
-│
+└── README.md
 └── README.md
